@@ -43,7 +43,10 @@
     <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
   </table>
 
-  <div [@flyInOut]="delayedSplit? 'in' : ''" *ngIf="isSplitActive && delayedSplit">
+  <div
+    [@flyInOut]="delayedSplit ? 'in' : ''"
+    *ngIf="isSplitActive && delayedSplit"
+  >
     <table
       mat-table
       [dataSource]="extendedDataSource"
