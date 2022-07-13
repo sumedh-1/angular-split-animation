@@ -1,0 +1,9 @@
+.custom {
+  padding-top: 20px;
+}
+
+.float-child {
+  width: 30%;
+  float: left;
+  margin-left: 30px;
+}
